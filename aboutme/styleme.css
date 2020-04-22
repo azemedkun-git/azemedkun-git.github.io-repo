@@ -1,0 +1,60 @@
+.header{
+    background-color: azure;
+    margin-top: -20px;
+}
+h3{
+    font-family: "Bodoni MT Black";
+}
+div.firstpart h3{
+    color: midnightblue;
+    font-weight: bold;
+    font-family: "Bradley Hand ITC";
+}
+div.firstpart{
+    background-color: antiquewhite;
+    margin-top: -17px;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+.img1{
+    width: 200px;
+    height: 180px;
+}
+h1{
+    font-family: "Bauhaus 93";
+}
+dt{
+    color: greenyellow;
+}
+.vl{
+    border-left: 6px solid midnightblue;
+    height: 190px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a{
+    color: red;
+}
+div.footer{
+    padding-top: 10px;
+    background-color: azure;
+    margin-top: -15px;
+}
+.right{
+    float: right;
+}

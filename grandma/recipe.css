@@ -1,0 +1,22 @@
+h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.header{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+h3{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+line{
+  "border: 1px solid midnightblue";
+}
