@@ -1,9 +1,19 @@
+body{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Serif;
+    background-image: url("../grandma/recipeImages/silverware.jpg");
+}
 h2{
     color: #A4A400;
     background-color: #F0F0F0;
+    display: inline-block;
     font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     text-align: center;
     text-decoration: underline;
+    font-weight: bold;
+    font-size: 22pt;
+    letter-spacing: 0.25em;
 }
 .header{
     max-width: 800px;
@@ -16,7 +26,43 @@ h3{
     background-color: #F0F0F0;
     font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     text-decoration: underline;
+    font-size: 18pt;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    display: inline-block;
 }
 line{
   "border: 1px solid midnightblue";
+}
+a{
+    color: #A4A400;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+.cont{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+li{
+    list-style-image: url("../grandma/recipeImages/pie_icon.gif");
+}
+div.left{
+    text-justify-trim: right;
 }
