@@ -1,12 +1,7 @@
 body, html {
-    height: 100%;
+    background-image: url("../movieReview/images/background.png");
     margin: 0;
     font-size: 8pt;
-}
-.all{
-    background-image: url("../movieReview/images/background.png");
-    background-position: center;
-    background-repeat: repeat;
 }
 #top{
     background-image: url("../movieReview/images/bannerbg.png");
@@ -21,6 +16,16 @@ body, html {
     background-repeat:no-repeat;
     background-position: center;
 }
+.container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    height: 300%;
+}
 #htext{
     font-size: 24pt;
     font-weight: bold;
@@ -28,39 +33,15 @@ body, html {
     font-family: Tahoma, Verdana, sans-serif;
     text-shadow:3px 3px #999999;
 }
-#central{
-    max-width: 800px;
-    margin: auto;
-    border: 2px solid grey;
-    border-radius: 20px;
-    height: 100%;
-    overflow: hidden;
-}
-div.centralLeft{
-    float: left;
-    width: 33%;
-    height: 100%;
-}
-.centralLeft{
-height: 100%;
-}
-div.centralRight{
+
+div.right {
     width: 250px;
-    height: 100%;
     float: right;
-    z-index: 1;
-}
-
-div.columnright{
     background-color: #A2B964;
-
 }
 dt{
     font-size: 8pt;
     font-family: Arial, sans-serif;
-}
-div.rev{
-    padding: 5px;
 }
 #chead{
     background-image: url("../movieReview/images/rbg.png");
@@ -84,8 +65,9 @@ div.rev{
     font-weight: bold;
     font-family: Tahoma, Verdana, sans-serif;
 }
-div.column{
+div.left{
     width:550px;
+    position: relative;
 }
 div.col1{
     border: 2px solid gray;
@@ -122,15 +104,18 @@ img.icon{
 img.overview{
     float: right;
 }
-.bt{
-    float: bottom;
-    padding: 0px;
-    text-align: center;
-    background-color: #A2B964;
-}
+
 .check{
-    float:right;
+    position: relative;
     bottom: 5em;
     display: block;
     text-align: right;
+}
+.footer{
+    clear: left;
+    float: left;
+
+    background-color: #A2B964;
+    text-align: center;
+    padding: 2px;
 }
