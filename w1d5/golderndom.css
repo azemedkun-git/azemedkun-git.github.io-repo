@@ -21,7 +21,7 @@ ul{
 
     list-style: none;
 }
-li{
+nav.htext li{
     display: inline-block;
 }
 li.l-1{
@@ -31,7 +31,6 @@ li.l-1{
     padding: 17px 50px;
 }
 li.l4 {
-    text-align: right;
     text-decoration: none;
     color: #fff;
 }
