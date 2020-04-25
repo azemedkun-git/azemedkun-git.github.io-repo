@@ -18,8 +18,7 @@ body, html {
 }
 .container{
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     border: 2px solid grey;
     border-radius: 20px;
     overflow: hidden;
@@ -70,7 +69,7 @@ dt{
 }
 div.left{
     width:550px;
-    position: relative;
+
 }
 div.col1{
     padding-left: 5px;
@@ -91,12 +90,12 @@ div.cmt{
 div.person{
     margin: 2px;
     float: left;
-    padding: 8px;
     text-align: left;
     font-weight: bold;
     font-size: 8pt;
 }
 div.cimage{
+    top: 2em;
     margin: 2px;
     padding: 2px;
     float: left;
@@ -111,7 +110,6 @@ img.icon{
 img.overview{
     float: right;
 }
-
 .check{
     position: relative;
     bottom: 5em;
@@ -119,10 +117,14 @@ img.overview{
     text-align: right;
 }
 .footer{
-
-    padding-top: 5px;
-    position: relative;
-    clear: left;
+    clear: right;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
     background-color: #A2B964;
     text-align: center;
+}
+p.ftext{
+    float: bottom;
+
 }

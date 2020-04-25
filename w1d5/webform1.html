@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="webform1.css" type="text/css">
+</head>
+<body>
+<form action="">
+    <div class="main">
+        <div class="email"><label> Email Adress </label><br>
+        <input type="text" placeholder="Enter Email"></div>
+        <div id="promise"> We will never share your email with anyone</div>
+        <div class="email"><label class="pwd" > Password </label><br>
+        <input type="password" placeholder="Password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+               title="Must contain the Password field is at least 10 characters in length and contain at least one number
+               and one uppercase and lowercase letter"></div>
+        <div class="email"><label class="url" > URL </label><br>
+            <input type="url" placeholder="Enter URL" id="ur" name="url" pattern="https?://.+"
+                   title="Please add correct URL begining with http or https"></div>
+        <div><input class="chk" type="checkbox"/>Check me out</div>
+        <input type="submit">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+background-color: black;
+}
+form{
+    background-color: white;
+    border: 4px solid gray;
+}
+.main{
+    margin: 100px;
+}
+input{
+
+}
+div#promise{
+    opacity: 50%;
+}
+.email{
+    margin-top: 10px;
+}
+input.chk{
+    padding-top: 0;
+}
