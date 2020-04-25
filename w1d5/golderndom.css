@@ -5,7 +5,6 @@ body{
     margin-right: 0;
     margin-left: 0;
     margin-top: 50px;
-
     background-color: white;
 }
 .header{
@@ -13,13 +12,13 @@ body{
     border-top: 2px solid white;
 }
 .htext{
-
     margin: 0;
+    display: flex;
 }
 ul{
     padding: 0;
     margin: 0;
-    display: flex;
+
     list-style: none;
 }
 li{
@@ -35,10 +34,30 @@ li.l4 {
     text-align: right;
     text-decoration: none;
     color: #fff;
-    padding-top: 17px;
-    padding-left: 50px;
 }
 #btn{
     padding: 5px;
     margin-left: 2px;
+}
+@media screen and (max-width: 600px){
+.htext{
+    flex-wrap: wrap
+}
+    .l1{
+        width: 100%;
+        order: 1;
+        padding: 0;
+    }
+    .l2{
+        width: 100%;
+        order: 2;
+    }
+    .l3{
+        width: 100%;
+        order: 3;
+    }
+    .l4{
+        width: 100%;
+        order: 3;
+    }
 }
