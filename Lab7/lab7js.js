@@ -33,6 +33,14 @@ function findLongWord(word) {
 }
 console.log("Expected output of findLongWord(words) is  4 and  " + myFunctionTest( 4, findLongWord(['abe', 'zell'])));
 
+function reverse(word){
+    const arr=word.split('');
+    const rev = arr.reduce(function (c1,c2) {
+        return (c2 + c1);
+    });
+    return rev;
+}
+console.log("Expected output of reverse('word') is drow and  " + myFunctionTest('drow', reverse('word')));
 function filterLongWord(words, num){
     const ar=[];
     const c = words.filter(function(elem, i, array){
