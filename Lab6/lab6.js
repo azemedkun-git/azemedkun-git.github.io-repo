@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 function myFunctionTest(expected, found) {
     if (expected === found) {
         return "TEST SUCCEEDED";
