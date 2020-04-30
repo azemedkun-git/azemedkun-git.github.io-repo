@@ -48,6 +48,6 @@ function filterLongWord(words, num){
             ar.push(elem)
         }
     });
-  return ar;
+  return JSON.stringify(ar);
 }
-console.log("Expected output of filterLongWords(['what', 'who', 'whom'], 3) is [\"what\", \"whom\"] and  " + myFunctionTest(['what','whom'], filterLongWord(['what', 'who', 'whom'], 3)));
+console.log("Expected output of filterLongWords(['what', 'who', 'whom'], 3) is [\"what\", \"whom\"] and  " + myFunctionTest(JSON.stringify(['what','whom']), filterLongWord(['what', 'who', 'whom'], 3)));
