@@ -28,8 +28,29 @@ function list(arr) {
     return node;
 }
 console.log(list([1, 2, 3, 4]));
+/*function arrayToList(array) {
+    var list = null;
+    for (var i = array.length - 1; i >= 0; i--) {
+        console.log(i);//2, then 1
+        console.log(array[i]);//20, then 10
+        list = {
+            value: array[i],
+            rest: list//null, then {value:20, rest: null}
+        };
+    }
+    return list;
+}
+console.log(arrayToList([10, 20]));
+//{ value: 10, rest: { value: 20, rest: null } }*/
 
-
+//Question 2-b- list to array
+var list = { "val": "1", "next": { "val": "2", "next": { "val": "3", "next": { "val": "4", "next": { "val": "5", "next": null } } } } };
+var arr = [list.val]
+while(list.next !== null){
+    list = list.next;
+    arr.push(list.val);
+}
+console.log(arr);
 //Question 3
 function reverseArrayInPlace(arr) {
     for (let i = 0; i <= Math.floor((arr.length - 1) / 2); i++) {
