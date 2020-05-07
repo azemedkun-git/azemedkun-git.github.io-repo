@@ -39,7 +39,7 @@ describe("For account", function () {
     // });
 });
 
-describe('For SavingAccount class', function() {
+describe('For SavingAccount class', function() { //For saving account type
     let account;
     let accist = 2;
     let balance = 1000;
