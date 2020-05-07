@@ -14,7 +14,7 @@ describe("For account", function () {
 
     it('withdraw', ()=>{
         account.deposit(100);
-        account.withdraw(150)
+        account.withdraw(140)
         assert.equal(50, account.getBalance());
 
         try {
