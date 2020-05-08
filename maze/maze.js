@@ -1,10 +1,10 @@
+$(document).ready(function () {
 let old;
 let count =1;
-$(document).ready(function () {
+
     old= $(".boundary").css("background-color");
     $("#start").click(_start);
     $("#end").mouseover(_end);
-});
 function _start() {
      if(count===1) {
          count=0;
@@ -30,3 +30,4 @@ function _mouseover() {
 function _mouseleave() {
     $(".boundary").css("background-color", "rgb(235, 52, 91)");
 }
+});
